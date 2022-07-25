@@ -7,8 +7,8 @@ function getguns() --edit this as you want
 end
 
 local Plugin = {
-    ["PluginName"] = "simple pl plugin",
-    ["PluginDescription"] = "pretty basic, only 2 cmds lol",
+    ["PluginName"] = "prision.iy",
+    ["PluginDescription"] = "maded 0xBqz, Specially for gunfighting and playing competitive",
     ["Commands"] = {
         ["resp"] = {
             ["ListName"] = "resp",
