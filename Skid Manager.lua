@@ -5,8 +5,7 @@ local skids = {}
 --[[Plufin json file]]
 
 if isfile("Skids.json") then
-    local json = HttpService:JSONDecode(readfile("Skids.json"))
-    if json.skids ~= nil then skids = json.skids else skids = {} end
+    if HttpService:JSONDecode(readfile("Skids.json")).skids ~= nil then skids = json.skids else skids = {} end
 else
     writefile("Skids.json","")
 end
